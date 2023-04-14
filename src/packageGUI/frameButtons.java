@@ -1,3 +1,4 @@
+package packageGUI;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -8,12 +9,12 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class MyFrame extends JFrame implements ActionListener{
+public class frameButtons extends JFrame implements ActionListener{
 
     JButton button;
     JLabel label;
 
-    MyFrame(){
+    frameButtons(){
         
         label = new JLabel();
         ImageIcon icon = new ImageIcon("vasco.png");
