@@ -17,5 +17,7 @@ public class Main {
 
         System.out.println("object info saved!");
 
+        long serialVersionUID = ObjectStreamClass.lookup(user.getClass()).getSerialVersionUID();
+        System.out.println(serialVersionUID);
     }
 }
